@@ -41,13 +41,13 @@
   --space-200-rem: 1.5rem;
   --space-300-rem: 2.5rem;
   --space-400-rem: 3.5rem;
-  --space-500-rem: 6.5rem;
+  --space-700-rem: 6.5rem;
 
   --space-100-em: .5em;
   --space-200-em: 1.5em;
   --space-300-em: 2.5em;
   --space-400-em: 3.5em;
-  --space-500-em: 6.5em;
+  --space-700-em: 6.5em;
 
   --stack-important: 999;
   --stack-infront: 1;
@@ -280,7 +280,7 @@ footer .button--primary:hover {
 
 @media (min-width: 900px) {
   .padding-block-large {
-    padding-block: var(--space-500-em);
+    padding-block: var(--space-700-em);
   }
 
   .full > .wrapper-break {
