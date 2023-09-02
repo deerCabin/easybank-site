@@ -261,9 +261,13 @@ body {
   background-image: linear-gradient(to right, hsl(var(--clr-primary-400)), hsl(var(--clr-secondary-400)));
   transition: background-image .3s ease-in-out;
 }
-
 .button--primary:hover {
-  background-image: linear-gradient(to right, hsl(var(--clr-primary-400)), hsl(var(--clr-primary-400)));
+  background: none;
+  color: hsl(var(--clr-neutral-900));
+  outline: 2px solid hsl(var(--clr-primary-400));
+}
+footer .button--primary:hover {
+  color: hsl(var(--clr-neutral-100));
 }
 
 .hide-mobile {
