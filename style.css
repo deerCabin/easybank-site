@@ -375,6 +375,8 @@ footer .button--primary:hover {
 
 /*Articles*/
 .article {
+  --card-padding: 1.4em;
+
   display: grid;
   grid-template-rows: 200px auto;
   border-radius: .5em;
@@ -388,7 +390,7 @@ footer .button--primary:hover {
 }
 
 .article__content {
-  padding: 1.4em;
+  padding: var(--card-padding);
 }
 
 /*Footer*/
