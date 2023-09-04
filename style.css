@@ -346,7 +346,7 @@ footer .button--primary:hover {
 .hero {
   position: relative;
   text-align: center;
-  overflow: hidden; /*Put on dekstop when z index stacking is here*/
+  overflow: hidden;
   z-index: var(--stack-infront);
 }
 
